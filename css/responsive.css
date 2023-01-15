@@ -1,0 +1,135 @@
+
+@media only screen and (max-width :576px){
+    
+    .header {
+        padding: 0 20px;
+    }
+    .nav {
+        padding: 20px 0;
+        flex-direction: column;
+    
+    }
+    .nav .logo {
+        font-size: 18px;
+        line-height: 52px;
+    }
+    
+    .nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .header-content .header-titile {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    
+    .header-content .header-text {
+        font-size: 14px;
+        margin: 30px 0 20px;
+        
+    }
+    
+    .feature-section {
+        padding: 0 20px;
+        flex-direction: column;
+        margin-top: 80px;
+        gap: 20px;
+    }
+    
+    .feature-images {
+        max-width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    
+    
+    .feature-text {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .features {
+        padding: 0 20px;
+        flex-direction: column;
+        margin: 120px 0;
+
+    }
+    
+    .features-image-container {
+        width: 100%;
+        margin-top: 80px;
+      
+    }
+    .feactures-text-container {
+        width: 100%;
+    }
+    
+    .card {
+        position: relative;
+        transform: translateX(50%);
+        left: -0%;
+        width: 50%;
+        margin: -50px -50px;
+        padding: 30px 20px;
+    }
+    
+    .card h3 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    
+    .some-facts {
+        padding: 0 20px;
+    }
+    
+    .fact-container {
+        padding: 0 20px;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 30px;
+    }
+    .fact-box{
+        height: 150px;
+    }
+    
+    .fact-box .icon-numebr {
+        font-size: 30px;
+    }
+    
+    .icon-text {
+        font-size: 22px;
+    }
+
+
+    .about-container{
+        flex-direction: column;
+        padding: 0 20px;
+        
+    }
+
+    .col img{
+        width: 100%;
+    }
+
+    .col2{
+        margin-top: -100px;
+    }
+
+
+    .logos_container {
+        padding: 0 20px;
+        text-align: center;
+        margin-top: 80px;
+    }
+    .logos_companies_container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .footer {
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    
+    }
+    
